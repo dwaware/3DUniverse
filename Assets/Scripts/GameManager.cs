@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         canvasMain = GameObject.Find("Canvas_Main");
-        canvasMain.SetActive(false);
+        canvasMain.SetActive(true);
         canvasStats = GameObject.Find("Canvas_Stats");
         canvasStats.SetActive(false);
     }

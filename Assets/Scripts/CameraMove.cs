@@ -52,7 +52,7 @@ public class CameraMove : MonoBehaviour
                 speed = min_speed;
             }
         }
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(1))  // use rmb to rotate view
         {
             if (Input.GetAxis("Mouse X") > 0)
             {
