@@ -14,7 +14,7 @@ public class Constants
     increasing this above 1 may still result in less stars if
     a reasonable hierarchy requires multiple attempts to find
     */
-    public static int min_stars = 2;  // let's make it interesting
+    public static int min_stars = 3;  // let's make it interesting
 
 
     // ######################################################################################
