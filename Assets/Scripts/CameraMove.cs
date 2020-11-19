@@ -56,11 +56,11 @@ public class CameraMove : MonoBehaviour
         {
             if (Input.GetAxis("Mouse X") > 0)
             {
-                transform.RotateAround(Vector3.zero, Vector3.up, Input.GetAxis("Mouse X") * degrees);
+                transform.RotateAround(transform.position, transform.up, Input.GetAxis("Mouse X") * degrees);
             }
             if (Input.GetAxis("Mouse X") < 0)
             {
-                transform.RotateAround(Vector3.zero, Vector3.up, Input.GetAxis("Mouse X") * degrees);
+                transform.RotateAround(transform.position, transform.up, Input.GetAxis("Mouse X") * degrees);
             }
             if (Input.GetAxis("Mouse Y") > 0)
             {

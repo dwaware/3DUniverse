@@ -841,11 +841,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Press [escape] to dismiss this menu.\n\nScrollwheel: throttle desired
-    thrust from 0 to +/-9\n\n   W         < while pressed, adds 2 to forward/backward
-    speed\nA    D       < left / right strafe\n    S          < full stop\n\nRight
-    mouse button plus:\nup/down   < pitch\nleft/right   < roll\n\nM\tcreate new map\n\nnot
-    yet implemented:\nC\tshow star stats\nN\tcycle to next star"
+  m_Text: "Toggle [escape] to hide/show this menu\n\nScrollwheel: increase/decrease
+    thrust to +/-9\n\n    W            < hold to boost speed\nA      D        < left
+    / right strafe\n     S            < full stop\n\nRight mouse button plus mouse:\nup/down  
+    < pitch up/down\nleft/right   < yaw left/right\n\nM\tcreate new  map\n\nnot yet
+    implemented:\nC\ttoggle star stats\nN\tcycle to next star"
 --- !u!222 &928953203
 CanvasRenderer:
   m_ObjectHideFlags: 0
