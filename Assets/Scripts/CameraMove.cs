@@ -22,7 +22,7 @@ public class CameraMove : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)))
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * (speed+boost_speed), Space.Self);
+            transform.Translate(Vector3.forward * Time.deltaTime * (speed + boost_speed), Space.Self);
         }
         if (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow)))
         {
