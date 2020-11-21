@@ -7,7 +7,7 @@ public class CameraMove : MonoBehaviour
     int speed = 0;
     int min_speed = -9;
     int max_speed = 9;
-    int boost_speed = 2;
+    int boost_speed = 4;
     int degrees = 10;
 
     // Use this for initialization
@@ -30,11 +30,11 @@ public class CameraMove : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.LeftArrow)))
         {
-            transform.Translate(Vector3.left * Time.deltaTime * speed, Space.Self);
+            transform.RotateAround(transform.position, transform.forward, 0.1f);
         }
         if (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow)))
         {
-            transform.Translate(Vector3.right * Time.deltaTime * speed, Space.Self);
+            transform.RotateAround(transform.position, transform.forward, -0.1f);
         }
         if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
