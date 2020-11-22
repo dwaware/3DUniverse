@@ -11,3 +11,4 @@ The blue line is drawn from the overall barycenter to the child node barycenter.
 
 You can watch ephemeris data build up over time:
 
+![ephemeris_data](https://user-images.githubusercontent.com/74695555/99891604-ea879480-2c28-11eb-8302-96276858863f.png)
