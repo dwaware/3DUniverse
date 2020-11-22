@@ -8,7 +8,7 @@ public class OrbitalMechanics
     public static float GetOrbitalPeriod (float a, float mP, float mS)
     {
         /*
-        a = "average distance" between the two bodies orbiting the barycenter (BC)
+        a = semi major axis relative to the barycenter (BC)
         mP = mass of primary star
         mS = mass of secondary star
         */
