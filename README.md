@@ -16,3 +16,7 @@ You can watch ephemeris data build up over time:
 The escape menu provides helpful information and is displayed each time the application is run:
 
 ![esc_menu](https://user-images.githubusercontent.com/74695555/99891624-2cb0d600-2c29-11eb-817d-41a7d11c4e38.png)
+
+Each time a new system is created, the "candidate" stars are pulled from a data structure containing 1100 different spectral classes and luminousity types.
+
+![k9v_data](https://user-images.githubusercontent.com/74695555/99891649-77cae900-2c29-11eb-9f11-1506bc1d8b6b.png)
