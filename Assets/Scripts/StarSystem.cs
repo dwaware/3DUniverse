@@ -16,8 +16,8 @@ public class StarSystem
 
         float rng = 100 * Random.Range(0f, 1f);
         /*
-        i.e. if the rng = 99.999930f;
-        this is within the 15 stars bracket
+        i.e. if rng = 99.1;
+        this is inside the 2 stars bracket as per the "float cumulative" below
         */
 
         // SSP is the Star System Probability Table
